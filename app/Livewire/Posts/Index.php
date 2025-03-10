@@ -13,7 +13,7 @@ class Index extends Component
 
    
     public $search;
-    public $perPage = 5;
+    public $perPage = 10;
     protected $updateQueryString = ['search' => ['except'=>'']];
     public function render()
     {
